@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lorem Grid</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light navbar-1">
+  <a class="navbar-brand" style="background-color: #0bada6; color: white;font-family:georgia,garamond,serif;font-size:26px;font-style:bold" href="/">Latutude</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" style="font-family:georgia,garamond,serif;font-size:20px;font-style:bold" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Plots
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="Visualizations/max-temp">Max Temperature</a>
+          <a class="dropdown-item" href="Visualizations/humidity">Humidity</a>
+          <a class="dropdown-item" href="Visualizations/cloudiness">Cloudiness</a>
+          <a class="dropdown-item" href="Visualizations/wind-speed">Wind Speed</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Comparisons">Comparisons</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Data">Data</a>
+      </li>
+    </ul>
+    <!-- <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form> -->
+  </div>
+</nav>
+
+<div class="container">
+  <div class="row mb-3"></div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-7">
+      <h2 style="color:#0bada6">Wind Speed</h2>
+      <hr/>
+      <img src="Images/Fig4.png" alt="Figure 4" height=350 width=525>
+      <p>The purpose of this project was to analyze the relationship between latitude and different weather conditions. 
+        This information is intended to give visitors to the site some insight through simple graphical representations 
+        and accompanying analysis. 
+      </p>
+      <p>
+        The data found on this site was aquired using the OpenWeatherMap API and collected through code written in python. 
+        It represents weather data from over 500 randomly chosen cities worldwide. Graphs given on this site represent 
+        data for high temperature, humdidity, cloudiness, and wind speed. Analysis of the relation of each factor to 
+        longitude can be found with the accompanying graph on the visualization pages. Navigate to the comparisons page to 
+        find all of the graphs on one page. The data page gives the table containing all of the data used to create the 
+        graphs, and in turn inspire the analysis on this site.
+      </p>
+    </div>
+    <div class="col-md-1"></div>
+    <div class="col-md-4">
+        <h2 style="color:#0bada6">Visualizations</h2>
+        <hr/>
+        <a href="../max-temp" ><img src="Images/Fig1.png" alt="Figure 1" height=125 width=125> </a>
+        <a href="../humidity" ><img src="Images/Fig2.png" alt="Figure 2" height=125 width=125> </a>
+        <a href="../cloudiness" ><img src="Images/Fig3.png" alt="Figure 3" height=125 width=125> </a>
+        <a href="../wind-speed" ><img src="Images/Fig4.png" alt="Figure 4" class="image-1" height=125 width=125> </a>
+    </div>
+  </div>
+</div>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+</body>
+</html>

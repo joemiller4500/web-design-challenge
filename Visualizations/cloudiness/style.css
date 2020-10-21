@@ -1,0 +1,61 @@
+body{
+    background: #eaeaed
+}
+
+.navbar {
+    /* height: 200 px; */
+    padding-top: 0;
+    padding-bottom: 0;
+}
+  
+.nav-pills .nav-link {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 0;
+}
+
+.col-md-4,.col-md-7{
+    background: white;
+}
+
+.box {
+    height: 800px;
+    padding: 20px;
+    background: white;
+  }
+  
+.boxa {
+    height: 550px;
+    padding: 20px;
+    background: white;
+  }  
+
+.boxb {
+    height: 425px;
+    padding: 20px;
+    background: white;
+  }
+
+.navbar-1{
+    background: white;
+}
+
+img {
+    float: left;
+ }
+
+.image-1 {
+    border: 2px solid #0bada6;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+@media (max-width: 992px) {
+    .navbar-1{
+        background: #0bada6;
+    }
+}
+
+/* style="background-color: #0bada6;" */
